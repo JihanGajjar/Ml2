@@ -2,11 +2,11 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model=pickle.load(open("D:\ML\diabetes_model.sav",'rb'))
+diabetes_model=pickle.load(open("diabetes_model.sav",'rb'))
 
-#heart_model=pickle.load(open('D:/internship/sav_files/Hear_model','rb'))
+#heart_model=pickle.load(open('Hear_model','rb'))
 
-#parkinsons_model=pickle.load(open('D:/internship/sav_files/parkinson_model','rb'))
+#parkinsons_model=pickle.load(open('parkinson_model','rb'))
 
 with st.sidebar:
     
